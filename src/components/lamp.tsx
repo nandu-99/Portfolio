@@ -6,7 +6,6 @@ import Link from "next/link";
 import { Button } from "./ui/moving-border";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { FaEnvelope, FaEnvelopeOpen, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 export function LampDemo() {

@@ -1,25 +1,6 @@
 "use client";
-import { WavyBackground } from "./ui/wavy-background";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
-import AWS from "../../public/techstack/AWS.png";
-import CSS3 from "../../public/techstack/CSS3.jpg";
-import Docker from "../../public/techstack/Docker.png";
-import Expressjs from "../../public/techstack/Express.png";
-import GraphQL from "../../public/techstack/GraphQL.png";
-import HTML from "../../public/techstack/html.png";
-import Js from "../../public/techstack/js.png";
-import MongoDB from "../../public/techstack/MongoDB.png";
-import NextJS from "../../public/techstack/NextJS.png";
-import NodeJS from "../../public/techstack/NodeJS.png";
-import PostGre from "../../public/techstack/PostGre.png";
 import React from "../../public/techstack/React.png";
-import Tailwind from "../../public/techstack/Tailwind.png";
-import Typescript from "../../public/techstack/Typescript.png";
-import Python from "../../public/techstack/python.png"
-import Java from "../../public/techstack/java.png"
-import Git from "../../public/techstack/git.png"
-import Bootstrap from "../../public/techstack/bootstrap.png"
-import { SparklesCore } from "./ui/sparkles";
 import { Spotlight } from "./ui/Spotlight";
 
 
@@ -73,46 +54,6 @@ const instructors = [
     designation:"string",
     image: "/techstack/git.png",
   }
-  
-   
-  // for future perposes aditya complect this as soon as possible
-  // {
-  //   id: 3,
-  //   name: "MongoDB",
-  //   image: MongoDB,
-  // },
-  // for future perposes aditya complect this as soon as possible
-  // {
-  //   id: 4,
-  //   name: "Express.js",
-  //   image: Expressjs,
-  // },
-  
-
-  // for future perposes aditya complect this as soon as possible
-  // {
-  //   id: 8,
-  //   name: "Typescript",
-  //   image: Typescript,
-  // },
-  // for future perposes aditya complect this as soon as possible
-  // {
-  //   id: 9,
-  //   name: "Tailwind",
-  //   image: Tailwind,
-  // },
-  // for future perposes aditya complect this as soon as possible
-  // {
-  //   id: 10,
-  //   name: "PostGre",
-  //   image: PostGre,
-  // },
-  // for future perposes aditya complect this as soon as possible
-  // {
-  //   id: 11,
-  //   name: "graphQL",
-  //   image: GraphQL,
-  // },
 ];
 
 function Instructors() {
@@ -131,8 +72,6 @@ function Instructors() {
         <div className="flex flex-row items-center justify-center mb-10 w-full">
           <AnimatedTooltip items={instructors} />
         </div>
-
-      {/* </WavyBackground> */}
     </div>
   );
 }

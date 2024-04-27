@@ -1,8 +1,6 @@
 import React from "react";
 import { BackgroundBeams } from "../../components/ui/background-beams";
-import { Label } from "../../components/ui/label";
 import { cn } from "@/utils/cn";
-import vivekananda from "../../../public/techstack/vivekananda.png"
 import { ButtonX } from "../../components/ui/cvborder";
 import Link from "next/link";
 
