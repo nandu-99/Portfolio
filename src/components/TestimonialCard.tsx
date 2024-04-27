@@ -1,7 +1,3 @@
-// well this is not something i exports this is the testmonal file which i have created, i dont have much testimonals to showcase so i am not 
-// inporting this, once i get enough testimonals and reviews on my HomeProjectsi will be uploding them here
-
-// this is an ai generated random testimonal fileURLToPath, so dont get afraid of whats this,- adi-gitX
 "use client";
 import HomeProjects from "./HomeProjects"
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
