@@ -6,7 +6,7 @@ import CSS3 from "../../public/techstack/CSS3.jpg";
 import Docker from "../../public/techstack/Docker.png";
 import Expressjs from "../../public/techstack/Express.png";
 import GraphQL from "../../public/techstack/GraphQL.png";
-import HTML from "../../public/techstack/HTML.png";
+import HTML from "../../public/techstack/html.png";
 import Js from "../../public/techstack/js.png";
 import MongoDB from "../../public/techstack/MongoDB.png";
 import NextJS from "../../public/techstack/NextJS.png";
@@ -27,42 +27,51 @@ const instructors = [
   {
     id: 1,
     name: "HTML",
-    image: HTML,
+    designation:"string",
+    image: "/techstack/html.png",
   },
   {
     id: 2,
     name: "CSS",
-    image: CSS3,
+    designation:"string",
+    image: "/techstack/CSS3.jpg",
+
   },
   {
     id: 3,
     name: "Javascript",
-    image: Js,
+    designation:"string",
+    image: "/techstack/js.png",
   },
   {
     id: 4,
     name: "React.js",
-    image: React,
+    designation:"string",
+    image: "/techstack/React.png",
   },
   {
     id: 5,
     name: "Python",
-    image: Python,
+    designation:"string",
+    image: "/techstack/python.png",
   },
   {
     id: 6,
     name: "Java",
-    image: Java,
+    designation:"string",
+    image: "/techstack/java.png",
   },
   {
     id: 7,
     name: "BootStrap",
-    image: Bootstrap,
+    designation:"string",
+    image: "/techstack/bootstrap.png",
   },
   {
     id: 8,
     name: "Git",
-    image: Git,
+    designation:"string",
+    image: "/techstack/git.png",
   }
   
    
