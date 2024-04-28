@@ -32,7 +32,7 @@ function page() {
           I'm Pottabathini Vivekananda, a student at Newton School of Technology.🎓 I've been deeply involved in cricket since 8th grade, achieving consistently high grades in school despite my cricket commitments.🏏 I've traveled across India and Sri Lanka, winning trophies for my school, though I had to pause due to personal reasons. 🏆 Alongside cricket, I'm passionate about photography 📸 and coding 💻, excelling in contests and assignments. Currently, I'm exploring web development, UI/UX, and sharpening my coding skills on platforms like LeetCode and Codeforces. 🌐 Additionally, I've recently started learning data structures and algorithms (DSA) and Java ☕. Despite the shift in my cricket journey, I'm eager to explore opportunities in coding and photography,embracing a life of continuous learning and growth.
           </p>
           <br/>
-          <Link href="https://drive.google.com/file/d/16vwMGDlYfrDwV3tYNhMS3cZxp--EiG6Z/view?usp=drive_link">
+          <Link href="https://drive.google.com/file/d/1RVyEVX-IA_AkFzRVxosV7f4FHlWkKQAC/view?usp=sharing">
             <ButtonX>Checkout CV</ButtonX>
           </Link>
         </div>
