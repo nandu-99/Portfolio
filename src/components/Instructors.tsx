@@ -8,50 +8,50 @@ const instructors = [
   {
     id: 1,
     name: "HTML",
-    designation:"string",
+    designation:"",
     image: "/techstack/html.png",
   },
   {
     id: 2,
     name: "CSS",
-    designation:"string",
+    designation:"",
     image: "/techstack/CSS3.jpg",
 
   },
   {
     id: 3,
     name: "Javascript",
-    designation:"string",
+    designation:"",
     image: "/techstack/js.png",
   },
   {
     id: 4,
     name: "React.js",
-    designation:"string",
+    designation:"",
     image: "/techstack/React.png",
   },
   {
     id: 5,
     name: "Python",
-    designation:"string",
+    designation:"",
     image: "/techstack/python.png",
   },
   {
     id: 6,
     name: "Java",
-    designation:"string",
+    designation:"",
     image: "/techstack/java.png",
   },
   {
     id: 7,
     name: "BootStrap",
-    designation:"string",
+    designation:"",
     image: "/techstack/bootstrap.png",
   },
   {
     id: 8,
     name: "Git",
-    designation:"string",
+    designation:"",
     image: "/techstack/git.png",
   }
 ];
