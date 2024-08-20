@@ -23,10 +23,10 @@ export function LampDemo() {
       >
        Pottabathini Vivekananda
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Student at NST | FrontEnd Web Developer | Cricketer | PhotoGrapher
+          Student at NST | Ex-Intern @Moveinsync | FrontEnd Web Developer | Cricketer | PhotoGrapher
         </p>
        <div className="mt-4" style={{ display: 'flex',alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
-            <Link href="https://github.com/nandu-99">
+            <Link href="https://github.com/nandu-99" target="_blank">
                 <Button
                   borderRadius="50%"
                   className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
@@ -34,7 +34,7 @@ export function LampDemo() {
                     <FontAwesomeIcon icon={faGithub} className="h-7"/>
                 </Button>
             </Link>
-            <Link href="https://www.instagram.com/vivekananda_99/">
+            <Link href="https://www.instagram.com/vivekananda_99/" target="_blank">
                 <Button
                   borderRadius="50%"
                   className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
@@ -42,7 +42,7 @@ export function LampDemo() {
                     <FontAwesomeIcon icon={faInstagram} className="h-7"/>
                 </Button>
             </Link>
-            <Link href="https://www.linkedin.com/in/vivekananda-pottabathini-814200288/">
+            <Link href="https://www.linkedin.com/in/vivekananda-pottabathini-814200288/" target="_blank">
                 <Button
                   borderRadius="50%"
                   className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
@@ -50,7 +50,7 @@ export function LampDemo() {
                     <FontAwesomeIcon icon={faLinkedin} className="h-7"/>
                 </Button>
             </Link>
-            <Link href="">
+            <Link href="mailto:vivekananda.99666@gmail.com" target="_blank">
                 <Button
                   borderRadius="50%"
                   className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"

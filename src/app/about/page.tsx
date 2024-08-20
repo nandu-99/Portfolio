@@ -21,7 +21,7 @@ function page() {
         <img
           src="/courses/vivekananda.png" // Replace with your photo URL
           alt="Your Photo"
-          className="rounded-full w-49 h-49 mx-auto mb-4"
+          className="rounded-full w-49 h-49 mx-auto mb-4 z-10"
         />
         <div>
           <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
@@ -29,10 +29,14 @@ function page() {
           </h1>
           <br/>
           <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-left relative z-10">
-          I'm Pottabathini Vivekananda, a student at Newton School of Technology.🎓 I've been deeply involved in cricket since 8th grade, achieving consistently high grades in school despite my cricket commitments.🏏 I've travelled across India and Sri Lanka, winning trophies for my school, though I had to pause due to personal reasons. 🏆 Alongside cricket, I'm passionate about photography 📸 and coding 💻, excelling in contests and assignments. Currently, I'm exploring web development, UI/UX, and sharpening my coding skills on platforms like LeetCode and Codeforces. 🌐 Additionally, I've recently started learning data structures and algorithms (DSA) and Java ☕. Despite the shift in my cricket journey, I'm eager to explore opportunities in coding and photography,embracing a life of continuous learning and growth.
+            I'm Pottabathini Vivekananda, currently pursuing a Bachelor of Technology in Computer Science at Newton School of Technology.🎓 My journey has been one of diverse passions and continuous learning. Since the 8th grade, I've balanced academics with a deep commitment to cricket,🏏 representing my school in various tournaments across India and Sri Lanka, earning numerous accolades.🏆 Despite having to pause my cricket journey due to personal reasons, my passion for learning and growth never waned.
+            <br/><br/>
+            Alongside cricket, I have a strong interest in photography📸 and coding.💻 I’ve excelled in both, participating in coding contests and honing my skills through assignments. My current focus is on web development, UI/UX design, and refining my coding abilities on platforms like LeetCode and Codeforces. I’ve completed over 250 questions on LeetCode and achieved a 1100+ rating on Codeforces.📊 Recently, I’ve started exploring data structures and algorithms (DSA) and learning Java☕ to strengthen my technical foundation.
+            <br/><br/>
+            While my path in cricket has taken a different turn, I'm eager to pursue new opportunities in coding and photography, embracing every chance to learn, grow, and excel.🚀
           </p>
           <br/>
-          <Link href="https://drive.google.com/file/d/19Dul8vNVBIOWfNfFJst_mxJi7DNAssd8/view?usp=sharing">
+          <Link href="https://drive.google.com/file/d/1TQI2bkL6Oc-m71H8b25PSCyU3WjmCKi5/view?usp=sharing" target="_blank">
             <ButtonX>Checkout CV</ButtonX>
           </Link>
         </div>

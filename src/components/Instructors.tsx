@@ -1,7 +1,6 @@
 "use client";
-import { AnimatedTooltip } from "./ui/animated-tooltip";
-import React from "../../public/techstack/React.png";
 import { Spotlight } from "./ui/Spotlight";
+import { AnimatedTooltip } from "./ui/animated-tooltip";
 
 
 const instructors = [
@@ -26,34 +25,52 @@ const instructors = [
   },
   {
     id: 4,
-    name: "React.js",
+    name: "Typescript",
+    designation:"",
+    image: "/techstack/typescript.png",
+  },
+  {
+    id: 5,
+    name: "React",
     designation:"",
     image: "/techstack/React.png",
   },
   {
-    id: 5,
+    id: 6,
+    name: "Angular",
+    designation:"",
+    image: "/techstack/angular.png",
+  }, 
+  {
+    id: 7,
     name: "Python",
     designation:"",
     image: "/techstack/python.png",
   },
   {
-    id: 6,
+    id: 8,
     name: "Java",
     designation:"",
     image: "/techstack/java.png",
   },
   {
-    id: 7,
+    id: 9,
     name: "BootStrap",
     designation:"",
     image: "/techstack/bootstrap.png",
   },
   {
-    id: 8,
+    id: 10,
+    name: "Tailwind CSS",
+    designation:"",
+    image: "/techstack/tailwind.jpg",
+  }, 
+  {
+    id: 11,
     name: "Git",
     designation:"",
     image: "/techstack/git.png",
-  }
+  }, 
 ];
 
 function Instructors() {
