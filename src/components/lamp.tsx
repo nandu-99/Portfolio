@@ -23,7 +23,7 @@ export function LampDemo() {
       >
        Pottabathini Vivekananda
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Student at NST | Ex-Intern @Moveinsync | FrontEnd Web Developer | Cricketer | PhotoGrapher
+          Student at NST | Ex-Intern @Moveinsync | Web Developer | Cricketer | PhotoGrapher
         </p>
        <div className="mt-4" style={{ display: 'flex',alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
             <Link href="https://github.com/nandu-99" target="_blank">

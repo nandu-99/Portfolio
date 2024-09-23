@@ -31,42 +31,69 @@ const instructors = [
   },
   {
     id: 5,
+    name: "MySQL",
+    designation:"",
+    image: "/techstack/mysql.png",
+  },
+  {
+    id: 6,
+    name: "MongoDB",
+    designation:"",
+    image: "/techstack/MongoDB.png",
+  },
+  
+  {
+    id: 7,
+    name: "Express.js",
+    designation:"",
+    image: "/techstack/Express.png",
+  },
+  {
+    id: 8,
     name: "React",
     designation:"",
     image: "/techstack/React.png",
   },
   {
-    id: 6,
+    id: 9,
+    name: "Nodejs",
+    designation:"",
+    image: "/techstack/NodeJS.png",
+  },
+  
+  
+  {
+    id: 10,
     name: "Angular",
     designation:"",
     image: "/techstack/angular.png",
   }, 
   {
-    id: 7,
+    id: 11,
     name: "Python",
     designation:"",
     image: "/techstack/python.png",
   },
   {
-    id: 8,
+    id: 12,
     name: "Java",
     designation:"",
     image: "/techstack/java.png",
   },
   {
-    id: 9,
+    id: 13,
     name: "BootStrap",
     designation:"",
     image: "/techstack/bootstrap.png",
   },
   {
-    id: 10,
+    id: 14,
     name: "Tailwind CSS",
     designation:"",
     image: "/techstack/tailwind.jpg",
   }, 
   {
-    id: 11,
+    id: 15,
     name: "Git",
     designation:"",
     image: "/techstack/git.png",

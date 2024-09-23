@@ -9,6 +9,16 @@ export const products = [
     thumbnail: "/courses/reactquiz.jpeg",
   },
   {
+    title: "Student Management System",
+    link: "https://nst-ru-sms.vercel.app/auth/sign-in",
+    thumbnail: "/courses/sms.jpeg",
+  },
+  {
+    title: "Jee College Predictor",
+    link: "https://my.newtonschool.co/jee-college-predictor-by-iit-roorkee-alumni-and-nst-students",
+    thumbnail: "/courses/collegepredictor.jpeg",
+  },
+  {
     title: "Trip Planner",
     link: "https://nandu-99.github.io/Trip_planner/",
     thumbnail: "/courses/trip.jpeg",

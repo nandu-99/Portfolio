@@ -36,7 +36,7 @@ function page() {
             While my path in cricket has taken a different turn, I'm eager to pursue new opportunities in coding and photography, embracing every chance to learn, grow, and excel.🚀
           </p>
           <br/>
-          <Link href="https://drive.google.com/file/d/1TQI2bkL6Oc-m71H8b25PSCyU3WjmCKi5/view?usp=sharing" target="_blank">
+          <Link href="https://drive.google.com/file/d/1Jr--j3SxPPgGan6Br1QTV38inNrcVPTb/view?usp=sharing" target="_blank">
             <ButtonX>Checkout CV</ButtonX>
           </Link>
         </div>
