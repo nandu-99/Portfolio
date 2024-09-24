@@ -17,19 +17,17 @@ const InternshipExperienceCard = () => {
             development with Angular. My key contributions included:
           </p>
           <div className="pl-4 mt-2 text-neutral-500">
-            - Redesigning the employee profile section, enhancing both the user
-            interface and experience.
+            - Angular Development: Designed and implemented dynamic, responsive components and forms with Angular,
+             utilizing advanced techniques like async data handling, complex validations, and real-time UI updates.
             <br />
-            - Developing a component to display upcoming meetings, integrating
-            API data for a seamless view.
+            - API Integration for Real-Time Features: Integrated APIs to develop real-time meeting management,
+             streamlining the display of upcoming events and improving user engagement.
             <br />
-            - Working on a major client project for PWC, which involved complex
-            form handling, validations, and dynamic rendering.
+            - Full Profile Redesign: Led a comprehensive redesign of employee profiles, enhancing UX with new 
+            edit/view modes and optimizing multiple sections (personal info, settings, history).
             <br />
-            - Enhancing the billing section with advanced form management and
-            data handling for PWC clients.
-            <br />- Addressing various bug fixes to improve overall project
-            stability and performance.
+            - Efficient Form Data Processing: Managed and optimized multi-form data flows, ensuring 
+            efficient payload handling and dynamic rendering for faster, smoother user interactions.
           </div>
         </div>
       </div>
