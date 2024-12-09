@@ -43,7 +43,7 @@ function page() {
                 />
               </CardItem>
               <div className="flex justify-between items-center mt-20">
-                <Link href={course.github}>
+                <Link href={course.github} target="_blank">
                   <CardItem
                     translateZ={20}
                     as="button"

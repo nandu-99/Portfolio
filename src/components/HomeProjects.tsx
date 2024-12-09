@@ -9,6 +9,11 @@ export const products = [
     thumbnail: "/courses/reactquiz.jpeg",
   },
   {
+    title: "RapidMERN",
+    link: "https://npmjs.com/package/rapidmern",
+    thumbnail: "/courses/rapidmern.jpeg",
+  },
+  {
     title: "Student Management System",
     link: "https://nst-ru-sms.vercel.app/auth/sign-in",
     thumbnail: "/courses/sms.jpeg",
@@ -20,7 +25,7 @@ export const products = [
   },
   {
     title: "Trip Planner",
-    link: "https://nandu-99.github.io/Trip_planner/",
+    link: "https://wanderlust-tripplanner.netlify.app",
     thumbnail: "/courses/trip.jpeg",
   },
   {
