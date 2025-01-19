@@ -22,8 +22,8 @@ export function LampDemo() {
         className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
        Pottabathini Vivekananda
-        <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Student at NST | Ex-Intern @Moveinsync | Web Developer | Cricketer | PhotoGrapher
+        <p className="mt-4 font-normal tracking-tight text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
+          Student at NST | Intern @Zuvees | Ex-Intern @Moveinsync | Web Developer | Cricketer | PhotoGrapher
         </p>
        <div className="mt-4" style={{ display: 'flex',alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
             <Link href="https://github.com/nandu-99" target="_blank">
