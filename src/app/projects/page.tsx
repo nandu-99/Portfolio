@@ -42,17 +42,19 @@ function page() {
                   alt={course.title}
                 />
               </CardItem>
-              <div className="flex justify-between items-center mt-20">
-                <Link href={course.github} target="_blank">
-                  <CardItem
-                    translateZ={20}
-                    as="button"
-                    className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white flex"
-                  >
-                    <FaGithub className="mr-2" />
-                    Github Repo →
-                  </CardItem>
-                </Link>
+              <div className={`flex items-center mt-20 ${course.github ? "justify-between" : "justify-end"}`}>
+                {course.github &&
+                  <Link href={course.github} target="_blank">
+                    <CardItem
+                      translateZ={20}
+                      as="button"
+                      className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white flex"
+                    >
+                      <FaGithub className="mr-2" />
+                      Github Repo →
+                    </CardItem>
+                  </Link>
+                }
                 <Link href={course.livelink}  target="_blank">
                   <CardItem
                     translateZ={20}
