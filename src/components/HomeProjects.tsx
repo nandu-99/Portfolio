@@ -9,14 +9,19 @@ export const products = [
     thumbnail: "/courses/reactquiz.jpeg",
   },
   {
-    title: "RapidMERN",
-    link: "https://npmjs.com/package/rapidmern",
-    thumbnail: "/courses/rapidmern.jpeg",
+    title: "PrepLoom",
+    link: "https://preploom.vercel.app/",
+    thumbnail: "/courses/preploom.png",
   },
   {
     title: "Student Management System",
     link: "https://nst-ru-sms.vercel.app/auth/sign-in",
     thumbnail: "/courses/sms.jpeg",
+  },
+  {
+    title: "RapidMERN",
+    link: "https://npmjs.com/package/rapidmern",
+    thumbnail: "/courses/rapidmern.jpeg",
   },
   {
     title: "Jee College Predictor",
