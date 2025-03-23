@@ -7,10 +7,11 @@ import { Button } from "./ui/moving-border";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { SiGmail } from "react-icons/si";
+import { FaFileAlt } from "react-icons/fa";
 
 export function LampDemo() {
   return (
-    <LampContainer>
+    <LampContainer className="-mt-10 md:-mt-24 lg:-mt-64 xl:mt-0">
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -58,43 +59,16 @@ export function LampDemo() {
                     <SiGmail className="h-7"/>
                 </Button>
             </Link>
+            <Link href="https://drive.google.com/file/d/170hn9bph9B9tGPN7HPmGcPGIZFmu0fMl/view?usp=sharing" target="_blank">
+              <Button
+                  borderRadius="50%"
+                  className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+              >
+                  <FaFileAlt className="h-7"/>
+              </Button>
+          </Link>
         </div>
       </motion.h1>
-        {/* <div className="mt-4" style={{ display: 'flex', gap: '10px' }}>
-            <Link href="https://drive.google.com/file/d/1uJLx-g5O-EuFi-Q6TnAw_HJq4lQbaSFs/view?usp=sharing">
-                <Button
-                  borderRadius="50%"
-                  className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                >
-                    <FontAwesomeIcon icon={faGithub} className="h-7"/>
-                </Button>
-            </Link>
-            <Link href="https://drive.google.com/file/d/1uJLx-g5O-EuFi-Q6TnAw_HJq4lQbaSFs/view?usp=sharing">
-                <Button
-                  borderRadius="50%"
-                  className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                >
-                    <FontAwesomeIcon icon={faInstagram} className="h-7"/>
-                </Button>
-            </Link>
-            <Link href="https://drive.google.com/file/d/1uJLx-g5O-EuFi-Q6TnAw_HJq4lQbaSFs/view?usp=sharing">
-                <Button
-                  borderRadius="50%"
-                  className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                >
-                    <FontAwesomeIcon icon={faLinkedin} className="h-7"/>
-                </Button>
-            </Link>
-            <Link href="https://drive.google.com/file/d/1uJLx-g5O-EuFi-Q6TnAw_HJq4lQbaSFs/view?usp=sharing">
-                <Button
-                  borderRadius="50%"
-                  className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                >
-                    
-                </Button>
-            </Link>
-        </div> */}
-      
     </LampContainer>
   );
 }

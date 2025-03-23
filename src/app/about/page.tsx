@@ -4,7 +4,6 @@ import { cn } from "@/utils/cn";
 import { ButtonX } from "../../components/ui/cvborder";
 import Link from "next/link";
 
-
 function page() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -16,7 +15,7 @@ function page() {
       <div>
         <BackgroundBeams />
       </div>
-      <div className="w-screen bg-neutral-950 rounded-l-md flex items-center justify-center p-40 flex-col md:flex-row md:items-start">
+      <div className="md:py-40 py-20 px-20 xl:p-40 w-screen bg-neutral-950 rounded-l-md flex items-center justify-center flex-col lg:flex-row md:items-center">
         {/* Your Photo */}
         <img
           src="/courses/vivekananda.png" // Replace with your photo URL
@@ -27,21 +26,40 @@ function page() {
           <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
             About Me
           </h1>
-          <br/>
+          <br />
           <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-left relative z-10">
-            I'm Pottabathini Vivekananda, currently pursuing a Bachelor of Technology in Computer Science at Newton School of Technology.🎓 My journey has been one of diverse passions and continuous learning. Since the 8th grade, I've balanced academics with a deep commitment to cricket,🏏 representing my school in various tournaments across India and Sri Lanka, earning numerous accolades.🏆 Despite having to pause my cricket journey due to personal reasons, my passion for learning and growth never waned.
-            <br/><br/>
-            Alongside cricket, I have a strong interest in photography📸 and coding.💻 I’ve excelled in both, participating in coding contests and honing my skills through assignments. My current focus is on web development, UI/UX design, and refining my coding abilities on platforms like LeetCode and Codeforces. I’ve completed over 250 questions on LeetCode. Recently, I’ve started exploring advance data structures and algorithms (DSA) and learning Java☕ to strengthen my technical foundation.
-            <br/><br/>
-            While my path in cricket has taken a different turn, I'm eager to pursue new opportunities in coding and photography, embracing every chance to learn, grow, and excel.🚀
+            I'm Vivekananda from Hyderabad, currently a second-year BTech
+            student at Newton School of Technology.🎓 I have hands-on experience
+            with the MERN stack and love building projects from scratch.
+            <br />
+            <br />
+            Before BTech, I was a cricket player🏏, representing my school in
+            tournaments across India and Sri Lanka, earning several accolades.🏆
+            However, I left cricket for personal reasons and shifted my focus
+            entirely to development. Over time, I developed a strong interest in
+            coding💻 and started working on various projects.
+            <br />
+            <br />
+            I previously worked as a Frontend Developer Intern at MoveInSync and
+            am currently interning as an SDE at Zuvees. I enjoy working in
+            startups over big companies because I love exploring new things and
+            taking on bigger challenges. I want to work in a space where my
+            efforts make a real impact.
+            <br />
+            <br />
+            In the future, I aspire to start my own startup and build something
+            meaningful.🚀
           </p>
-          <br/>
-          <Link href="https://drive.google.com/file/d/170hn9bph9B9tGPN7HPmGcPGIZFmu0fMl/view?usp=sharing" target="_blank">
+
+          <br />
+          <Link
+            href="https://drive.google.com/file/d/170hn9bph9B9tGPN7HPmGcPGIZFmu0fMl/view?usp=sharing"
+            target="_blank"
+          >
             <ButtonX>Checkout Resume</ButtonX>
           </Link>
         </div>
       </div>
-      
     </div>
   );
 }

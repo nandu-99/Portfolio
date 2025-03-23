@@ -119,7 +119,7 @@ function Instructors() {
     "git",
   ];
   return (
-    <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
+    <div className="p-5 h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
       <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="cyan" />
       <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8 ">
         My Skills
@@ -128,9 +128,9 @@ function Instructors() {
         My skills include a deep dive into several remarkable technologies that
         I've worked with.
       </p>
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-10 m-2">
         {/* <IconCloud iconSlugs={iconSlugs} /> */}
-        <div className="flex flex-row items-center justify-center w-full">
+        <div className="flex flex-wrap items-center justify-center w-full gap-2">
           <AnimatedTooltip items={instructors} />
         </div>
       </div>
