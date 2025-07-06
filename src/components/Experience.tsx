@@ -11,7 +11,11 @@ const experiences = [
     icon: "https://media.licdn.com/dms/image/v2/D560BAQFbyIbRC3kiiw/company-logo_200_200/company-logo_200_200/0/1736242205255/zuvees_logo?e=2147483647&v=beta&t=tbJpcwIixQ2dH2LXnCIgRTnFRqCKV7Zq4_Ama6Ayeng",
     description:
       "A tech-first global e-commerce company backed by prominent VCs, with roots in India. We leverage technology to revolutionise online gifting, a massive global industry valued at over $500 billion.",
-    highlights: ["First tech team @Zuvees", "Built 0-1 solutions", "Received Pre-Placement Offer (PPO)"],
+    highlights: [
+      "First tech team @Zuvees",
+      "Built 0-1 solutions",
+      "Received Pre-Placement Offer (PPO)",
+    ],
     features: [
       "Built and maintained Shopify theme-based storefronts and custom landing pages.",
       "Built internal operations dashboard (ZIST) with role-based access control, multi-marketplace integration, and order & catalog management from scratch.",
