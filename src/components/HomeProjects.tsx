@@ -57,8 +57,8 @@ export const products = [
     title: "NST website clone",
     link: "https://nandu-99.github.io/NST-website-clone/",
     thumbnail: "/courses/nst.jpeg",
-    },  
-  
+  },
+
   {
     title: "Memory Game",
     link: "https://nandu-99.github.io/Memory-Game-1/game.html",
@@ -84,7 +84,7 @@ export const products = [
     title: "LinkedIn-clone",
     link: "https://nandu-99.github.io/linkedin-landing-page-clone/",
     thumbnail: "/courses/linked.jpeg",
-  },  
+  },
   {
     title: "OrganizePro",
     link: "https://organizepro.netlify.app/",
@@ -94,8 +94,7 @@ export const products = [
     title: "2048 Game",
     link: "https://nandu-99.github.io/2048-Game/",
     thumbnail: "/courses/2048.png",
-  }
-
+  },
 ];
 
 function HomeProjects() {

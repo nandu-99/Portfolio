@@ -2,7 +2,7 @@
 
 import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
 import React, { MouseEvent as ReactMouseEvent, useState } from "react";
-import { CanvasRevealEffect } from './canvas-reveal-effect'
+import { CanvasRevealEffect } from "./canvas-reveal-effect";
 import { cn } from "@/utils/cn";
 
 export const CardSpotlight = ({
@@ -36,7 +36,7 @@ export const CardSpotlight = ({
     <div
       className={cn(
         "group/spotlight p-10 rounded-md relative border border-neutral-800 bg-black dark:border-neutral-800",
-        className
+        className,
       )}
       onMouseMove={handleMouseMove}
       onMouseEnter={handleMouseEnter}

@@ -7,8 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { Boxes } from "@/components/ui/background-boxes";
 import Link from "next/link";
-import BackgroundBeams from "@/components/Beams"
-
+import BackgroundBeams from "@/components/Beams";
 
 function page() {
   return (

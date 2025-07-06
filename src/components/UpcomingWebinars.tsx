@@ -10,7 +10,7 @@ function UpcomingWebinars() {
         "Dive deep into the fundamentals of music theory and enhance your musical skills.",
       slug: "understanding-music-theory",
       isFeatured: true,
-    }
+    },
   ];
 
   return (

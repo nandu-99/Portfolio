@@ -20,7 +20,6 @@ const content = [
       </div>
     ),
   },
-  
 ];
 
 function WorkEx() {

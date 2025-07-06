@@ -1,5 +1,5 @@
 "use client";
-import HomeProjects from "./HomeProjects"
+import HomeProjects from "./HomeProjects";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 const musicSchoolTestimonials = [

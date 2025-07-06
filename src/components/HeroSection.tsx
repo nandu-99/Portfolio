@@ -37,8 +37,8 @@ function HeroSection() {
           <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
           <div className="-mt-4 -ml-8 z-10">
             <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-              Student at NST | FullStack Web Developer | Content Creator | Passion for Problem
-              Solving
+              Student at NST | FullStack Web Developer | Content Creator |
+              Passion for Problem Solving
             </p>
             <div className="mt-4">
               <Link href="https://drive.google.com/file/d/1uJLx-g5O-EuFi-Q6TnAw_HJq4lQbaSFs/view?usp=sharing">

@@ -7,8 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { Boxes } from "@/components/ui/background-boxes";
 import Link from "next/link";
-import BackgroundBeams from "@/components/Beams"
-
+import BackgroundBeams from "@/components/Beams";
 
 function page() {
   return (
@@ -42,8 +41,10 @@ function page() {
                   alt={course.title}
                 />
               </CardItem>
-              <div className={`flex items-center mt-20 ${course.github ? "justify-between" : "justify-end"}`}>
-                {course.github &&
+              <div
+                className={`flex items-center mt-20 ${course.github ? "justify-between" : "justify-end"}`}
+              >
+                {course.github && (
                   <Link href={course.github} target="_blank">
                     <CardItem
                       translateZ={20}
@@ -54,8 +55,8 @@ function page() {
                       Github Repo →
                     </CardItem>
                   </Link>
-                }
-                <Link href={course.livelink}  target="_blank">
+                )}
+                <Link href={course.livelink} target="_blank">
                   <CardItem
                     translateZ={20}
                     as="button"

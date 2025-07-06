@@ -5,7 +5,7 @@
       "title": "PrepLoom",
       "slug": "preploom",
       "description": "PrepLoom is a comprehensive platform for learning, revising, and interview prep, offering roadmaps, project ideas, coding questions, DSA resources, resume tips, and more, all in one place!",
-      "price": 0.00,
+      "price": 0.0,
       "instructor": "self",
       "isFeatured": true,
       "github": "",
@@ -17,13 +17,13 @@
       "title": "RapidMERN",
       "slug": "rapidmern",
       "description": "RapidMERN is a command-line tool for generating a complete MERN stack boilerplate with Prisma and MySQL integration, enabling quick project setup for full-stack applications.",
-      "price": 0.00,
+      "price": 0.0,
       "instructor": "self",
       "isFeatured": true,
       "github": "https://github.com/nandu-99/rapidmern",
       "livelink": "https://npmjs.com/package/rapidmern",
       "image": "/courses/rapidmern.jpeg"
-    },    
+    },
     {
       "id": 3,
       "title": "Student Management System",
@@ -108,7 +108,7 @@
       "isFeatured": true,
       "image": "/courses/reactquiz.jpeg"
     },
-    
+
     {
       "id": 10,
       "title": "2048-Game",

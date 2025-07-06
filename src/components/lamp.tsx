@@ -4,8 +4,12 @@ import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 import { Button } from "./ui/moving-border";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import { SiGmail } from "react-icons/si";
 import { FaFileAlt } from "react-icons/fa";
 
@@ -22,50 +26,68 @@ export function LampDemo() {
         }}
         className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-       Pottabathini Vivekananda
+        Pottabathini Vivekananda
         <p className="mt-4 font-normal tracking-tight text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Student at NST | Intern @Zuvees | Ex-Intern @Moveinsync | Web Developer | Cricketer | PhotoGrapher
+          Student at NST | Intern @Zuvees | Ex-Intern @Moveinsync | Web
+          Developer | Cricketer | PhotoGrapher
         </p>
-       <div className="mt-4" style={{ display: 'flex',alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
-            <Link href="https://github.com/nandu-99" target="_blank">
-                <Button
-                  borderRadius="50%"
-                  className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                >
-                    <FontAwesomeIcon icon={faGithub} className="h-7"/>
-                </Button>
-            </Link>
-            <Link href="https://www.instagram.com/vivekananda_99/" target="_blank">
-                <Button
-                  borderRadius="50%"
-                  className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                >
-                    <FontAwesomeIcon icon={faInstagram} className="h-7"/>
-                </Button>
-            </Link>
-            <Link href="https://www.linkedin.com/in/vivekananda-pottabathini-814200288/" target="_blank">
-                <Button
-                  borderRadius="50%"
-                  className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                >
-                    <FontAwesomeIcon icon={faLinkedin} className="h-7"/>
-                </Button>
-            </Link>
-            <Link href="mailto:vivekananda.99666@gmail.com" target="_blank">
-                <Button
-                  borderRadius="50%"
-                  className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                >
-                    <SiGmail className="h-7"/>
-                </Button>
-            </Link>
-            <Link href="https://drive.google.com/file/d/170hn9bph9B9tGPN7HPmGcPGIZFmu0fMl/view?usp=sharing" target="_blank">
-              <Button
-                  borderRadius="50%"
-                  className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-              >
-                  <FaFileAlt className="h-7"/>
-              </Button>
+        <div
+          className="mt-4"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "10px",
+          }}
+        >
+          <Link href="https://github.com/nandu-99" target="_blank">
+            <Button
+              borderRadius="50%"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              <FontAwesomeIcon icon={faGithub} className="h-7" />
+            </Button>
+          </Link>
+          <Link
+            href="https://www.instagram.com/vivekananda_99/"
+            target="_blank"
+          >
+            <Button
+              borderRadius="50%"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              <FontAwesomeIcon icon={faInstagram} className="h-7" />
+            </Button>
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/vivekananda-pottabathini-814200288/"
+            target="_blank"
+          >
+            <Button
+              borderRadius="50%"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              <FontAwesomeIcon icon={faLinkedin} className="h-7" />
+            </Button>
+          </Link>
+          <Link href="mailto:vivekananda.99666@gmail.com" target="_blank">
+            <Button
+              borderRadius="50%"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              <SiGmail className="h-7" />
+            </Button>
+          </Link>
+          <Link
+            href="https://drive.google.com/file/d/170hn9bph9B9tGPN7HPmGcPGIZFmu0fMl/view?usp=sharing"
+            target="_blank"
+          >
+            <Button
+              borderRadius="50%"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >
+              <FaFileAlt className="h-7" />
+            </Button>
           </Link>
         </div>
       </motion.h1>
@@ -84,7 +106,7 @@ export const LampContainer = ({
     <div
       className={cn(
         "relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-md z-0",
-        className
+        className,
       )}
     >
       <div className="relative flex w-full flex-1 scale-y-125 items-center justify-center isolate z-0 ">
@@ -142,13 +164,9 @@ export const LampContainer = ({
             ease: "easeInOut",
           }}
           className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-cyan-400 "
-
-        >
-            
-        </motion.div>
+        ></motion.div>
 
         <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-slate-950 "></div>
-        
       </div>
 
       <div className="relative z-50 flex -translate-y-80 flex-col items-center px-5">
@@ -158,4 +176,4 @@ export const LampContainer = ({
   );
 };
 
-export default LampDemo
+export default LampDemo;
