@@ -34,7 +34,7 @@ function page() {
             <br />
             <br />
             Before BTech, I was a cricket player🏏, representing my school in
-            tournaments across India and Sri Lanka, earning several accolades.🏆
+            tournaments across India and Sri Lanka, earning several trophies.🏆
             However, I left cricket for personal reasons and shifted my focus
             entirely to development. Over time, I developed a strong interest in
             coding💻 and started working on various projects.
