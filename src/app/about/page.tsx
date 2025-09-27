@@ -18,9 +18,9 @@ function page() {
       <div className="md:py-40 py-20 px-20 xl:p-40 w-screen bg-neutral-950 rounded-l-md flex items-center justify-center flex-col lg:flex-row md:items-center">
         {/* Your Photo */}
         <img
-          src="/courses/vivekananda.png" // Replace with your photo URL
+          src="/courses/nandu.jpeg" // Replace with your photo URL
           alt="Your Photo"
-          className="rounded-full w-49 h-49 mx-auto mb-4 z-10"
+          className="rounded-full w-[200px] h-[200px] md:w-[500px] md:h-[500px] mx-auto mb-4 z-10"
         />
         <div>
           <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">

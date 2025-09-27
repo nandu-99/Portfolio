@@ -6,7 +6,7 @@ const education = [
     year: "2023-2027",
     degree: "Bachelor of Technology (Computer Science)",
     institution: "Newton School of Technology, Rishihood University",
-    score: "9.31/10.0",
+    score: "9.48/10.0",
   },
   {
     year: "2020-2022",

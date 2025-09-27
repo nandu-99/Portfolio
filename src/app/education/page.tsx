@@ -14,7 +14,7 @@ function Page() {
         <BackgroundBeams />
       </div>
       <div className="relative">
-        <div className="px-10 md:px-60 relative z-10">
+        <div className="px-10 lg:px-60 relative z-10">
           <EducationPage />
         </div>
       </div>

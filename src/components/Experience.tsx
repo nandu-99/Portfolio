@@ -4,7 +4,29 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const experiences = [
   {
-    date: "Jan 2025 - June 2025",
+    date: "July 2025 - Present",
+    title: "Zuvees",
+    role: "Tech + Growth Marketing Intern",
+    location: "Remote",
+    icon: "https://media.licdn.com/dms/image/v2/D560BAQFbyIbRC3kiiw/company-logo_200_200/company-logo_200_200/0/1736242205255/zuvees_logo?e=2147483647&v=beta&t=tbJpcwIixQ2dH2LXnCIgRTnFRqCKV7Zq4_Ama6Ayeng",
+    description:
+      "A tech-first global e-commerce company backed by prominent VCs, with roots in India. We leverage technology to revolutionise online gifting, a massive global industry valued at over $500 billion.",
+    highlights: [
+      "✨ Current",
+      // "Optimized payment gateway integration",
+    ],
+    features: [
+      // "Developed a recommendation engine for personalized gifting.",
+      // "Integrated third-party payment APIs for seamless transactions.",
+      // "Enhanced SEO performance for product pages.",
+    ],
+    offerLetter:
+      "https://drive.google.com/file/d/1VyR-qdlR2IqpgJRsIOWotQogGuwfMmHd/view?usp=sharing",
+    experienceLetter:
+      "",
+  },
+  {
+    date: "Jan 2025 - June 2025 · 6mos",
     title: "Zuvees",
     role: "Software Development Engineer",
     location: "Bangalore, Karnataka",
@@ -30,8 +52,9 @@ const experiences = [
     experienceLetter:
       "https://drive.google.com/file/d/1Kd6VFO0YXTSSC_2v0tVsQc_4YDzPCqWU/view?usp=sharing",
   },
+  
   {
-    date: "June 2024 - August 2024",
+    date: "June 2024 - August 2024 · 3mos",
     title: "MoveinSync",
     role: "Frontend Developer",
     location: "Bangalore, Karnataka",
@@ -51,90 +74,95 @@ const experiences = [
   },
 ];
 
+// Group experiences by company title
+const groupedExperiences = experiences.reduce((acc:any, curr) => {
+  const { title, icon, description, ...rest } = curr;
+  if (!acc[title]) {
+    acc[title] = { title, icon, description, experiences: [] };
+  }
+  acc[title].experiences.push(rest);
+  return acc;
+}, {});
+
 const InternshipExperienceCard = () => {
+  const companies = Object.values(groupedExperiences);
+
   return (
-    <div className="space-y-8">
-      <div className="relative flex items-start gap-6">
-        <div className="absolute top-0 left-8 bottom-0 w-[2px] bg-dashed bg-neutral-700"></div>
-
-        <div className="flex flex-col items-center gap-[960px] lg:gap-[600px] xl:gap-[400px] mt-6">
-          {experiences.map((experience, index) => (
-            <Avatar key={index} className="w-16 h-16 bg-white border">
-              <AvatarImage src={experience.icon} alt={experience.title} />
-              <AvatarFallback>{experience.title[0]}</AvatarFallback>
+    <div className="space-y-12 relative">
+      {/* Vertical dashed line connecting logos */}
+      {companies.length > 1 && (
+        <div className="absolute top-16 left-8 bottom-16 w-[2px] bg-dashed bg-neutral-700"></div>
+      )}
+      {companies.map((company:any, index) => (
+        <div key={index} className="relative border-b border-dashed border-neutral-700 pb-8">
+          {/* Company Details */}
+          <div className="flex items-start gap-6">
+            <Avatar className="w-16 h-16 bg-white border z-10">
+              <AvatarImage src={company.icon} alt={company.title} />
+              <AvatarFallback>{company.title[0]}</AvatarFallback>
             </Avatar>
-          ))}
-        </div>
+            <div className="flex-1">
+              <h2 className="text-xl font-bold text-white">{company.title}</h2>
+              <p className="text-base text-neutral-400 mt-1">{company.description}</p>
+            </div>
+          </div>
 
-        <div className="flex-1">
-          {experiences.map((experience, index) => (
-            <div
-              key={index}
-              className="py-4 border-b border-dashed border-neutral-700"
-            >
-              <p className="text-sm text-neutral-500">{experience.date}</p>
-              <h2 className="text-xl font-bold text-white">
-                {experience.title}{" "}
-                <span className="text-sm font-normal text-neutral-400">
-                  {" "}
-                  - ({experience.role})
-                </span>
-              </h2>
-              <p className="text-base text-neutral-400">
-                {experience.location}
-              </p>
-              {experience.highlights && (
-                <div className="mt-3 flex flex-wrap gap-2">
-                  {experience.highlights.map((highlight, idx) => (
-                    <span
-                      key={idx}
-                      className="inline-block bg-cyan-800 text-xs font-semibold px-3 py-1 rounded-full"
-                    >
-                      {highlight}
-                    </span>
-                  ))}
-                </div>
-              )}
-              <h3 className="text-md font-semibold text-neutral-300 mt-5">
-                Description
-              </h3>
-              <p className="text-base text-neutral-400 mt-1">
-                {experience.description}
-              </p>
-              {experience.features.length > 0 && (
-                <div className="mt-2">
-                  <h3 className="text-md font-semibold text-neutral-300">
-                    Features Worked on
-                  </h3>
-                  <ul className="text-sm text-neutral-500 list-inside list-disc">
-                    {experience.features.map((point, idx) => (
-                      <li key={idx}>{point}</li>
+          {/* Experience Details */}
+          <div className="mt-6 ml-24 space-y-8">
+            {company.experiences.map((exp:any, expIndex:any) => (
+              <div
+                key={expIndex}
+                className={expIndex !== company.experiences.length - 1 ? "border-b pb-4 border-dashed border-neutral-700" : ""}
+              >
+                <p className="text-sm text-neutral-500">{exp.date}</p>
+                <h3 className="text-lg font-semibold text-white">
+                  {exp.role} <span className="text-sm font-normal text-neutral-400"> - {exp.location}</span>
+                </h3>
+                {exp.highlights && (
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {exp.highlights.map((highlight:any, idx:any) => (
+                      <span
+                        key={idx}
+                        className="inline-block bg-cyan-800 text-xs font-semibold px-3 py-1 rounded-full"
+                      >
+                        {highlight}
+                      </span>
                     ))}
-                  </ul>
-                </div>
-              )}
-              <div className="mt-4 flex flex-col md:flex-row gap-4">
-                <a
-                  href={experience.offerLetter}
-                  target="_blank"
-                  className="text-sm text-blue-500"
-                >
-                  View Offer Letter
-                </a>
-                {experience.experienceLetter && (
+                  </div>
+                )}
+                {exp.features.length > 0 && (
+                  <div className="mt-4">
+                    <h4 className="text-md font-semibold text-neutral-300">Features Worked on</h4>
+                    <ul className="text-sm text-neutral-500 list-inside list-disc mt-1">
+                      {exp.features.map((point:any, idx:any) => (
+                        <li key={idx}>{point}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                <div className="mt-4 flex flex-col md:flex-row gap-4">
                   <a
-                    href={experience.experienceLetter}
+                    href={exp.offerLetter}
                     target="_blank"
                     className="text-sm text-blue-500"
                   >
-                    View Experience Letter
+                    View Offer Letter
                   </a>
-                )}
+                  {exp.experienceLetter && (
+                    <a
+                      href={exp.experienceLetter}
+                      target="_blank"
+                      className="text-sm text-blue-500"
+                    >
+                      View Experience Letter
+                    </a>
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      ))}
     </div>
   );
 };
