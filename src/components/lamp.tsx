@@ -1,17 +1,17 @@
 "use client";
-import React from "react";
-import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
-import Link from "next/link";
-import { Button } from "./ui/moving-border";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faGithub,
-  faInstagram,
-  faLinkedin,
+    faGithub,
+    faInstagram,
+    faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { SiGmail } from "react-icons/si";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { motion } from "framer-motion";
+import Link from "next/link";
+import React from "react";
 import { FaFileAlt } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import { Button } from "./ui/moving-border";
 
 export function LampDemo() {
   return (
@@ -79,7 +79,7 @@ export function LampDemo() {
             </Button>
           </Link>
           <Link
-            href="https://drive.google.com/file/d/170hn9bph9B9tGPN7HPmGcPGIZFmu0fMl/view?usp=sharing"
+            href="https://drive.google.com/file/d/17n7mHYLTME_su0Q7puBARkuVlHuBs38S/view?usp=sharing"
             target="_blank"
           >
             <Button
