@@ -25,18 +25,6 @@
       "image": "/courses/preploom.png"
     },
     {
-      "id": 5,
-      "title": "Student Management System",
-      "slug": "student management system",
-      "description": "A system designed to manage student details, attendance, marks, and academic progress. It also provides an easy-to-use admin dashboard for reports and daily operations.",
-      "price": 99.99,
-      "instructor": "self",
-      "isFeatured": true,
-      "github": "https://github.com/nandu-99/student_management_system",
-      "livelink": "https://nst-ru-sms.vercel.app/auth/sign-in",
-      "image": "/courses/sms.jpeg"
-    },
-    {
       "id": 6,
       "title": "JEE College Predictor",
       "slug": "jee college predictor",
@@ -48,6 +36,21 @@
       "livelink": "https://my.newtonschool.co/jee-college-predictor-by-iit-roorkee-alumni-and-nst-students",
       "image": "/courses/collegepredictor.jpeg"
     },
+    
+    {
+      "id": 20,
+      "title": "IMDb Dashboard",
+      "slug": "imdb-dashboard",
+      "description": "An interactive IMDb-style dashboard that displays movies, ratings, genres, and other insights in a clean and user-friendly interface.",
+      "price": 0.0,
+      "instructor": "self",
+      "isFeatured": true,
+      "github": "https://github.com/nandu-99/Mining-Minds---Mining-IMDB-for-Movie-Trends",
+      "livelink": "https://mining-minds-imdb.streamlit.app/",
+      "image": "/courses/imdb.jpeg"
+    },
+    
+    
     {
       "id": 7,
       "title": "TRIP PLANNER",
@@ -59,6 +62,18 @@
       "github": "https://github.com/nandu-99/Trip_planner",
       "livelink": "https://wanderlust-tripplanner.netlify.app",
       "image": "/courses/trip.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Student Management System",
+      "slug": "student management system",
+      "description": "A system designed to manage student details, attendance, marks, and academic progress. It also provides an easy-to-use admin dashboard for reports and daily operations.",
+      "price": 99.99,
+      "instructor": "self",
+      "isFeatured": true,
+      "github": "https://github.com/nandu-99/student_management_system",
+      "livelink": "https://nst-ru-sms.vercel.app/auth/sign-in",
+      "image": "/courses/sms.jpeg"
     },
     {
       "id": 2,
@@ -90,7 +105,7 @@
       "id": 9,
       "title": "LODGING LAND",
       "slug": "lodging land",
-      "description": "A platform to browse stays easily. Users can explore different lodging options based on their needs and preferences.",
+      "description": "A platform to browse stays easily. Users can explore different lodging options based on their needs.",
       "price": 109.99,
       "instructor": "my self",
       "isFeatured": false,
