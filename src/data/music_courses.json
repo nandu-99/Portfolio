@@ -2,21 +2,21 @@
   "courses": [
     {
       "id": 1,
-      "title": "Serenity Springs",
-      "slug": "serenity-springs",
-      "description": "A role-based wellness management platform with RBAC for admins, therapists, and users, enabling session scheduling, progress tracking, and streamlined management of therapy services.",
+      "title": "DriveMerge",
+      "slug": "drivemerge",
+      "description": "DriveMerge lets you connect multiple Google Drive accounts and use them like a single drive. It helps you manage files easily and overcome storage limits.",
       "price": 0.0,
       "instructor": "self",
       "isFeatured": true,
-      "github": "",
-      "livelink": "https://serenity-springs-site.vercel.app/",
-      "image": "/courses/serenity.png"
+      "github": "https://github.com/nandu-99/DriveMerge",
+      "livelink": "https://drive-merge.vercel.app/",
+      "image": "/courses/drivemerge.jpeg"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "PrepLoom",
       "slug": "preploom",
-      "description": "PrepLoom is a comprehensive platform for learning, revising, and interview prep, offering roadmaps, project ideas, coding questions, DSA resources, resume tips, and more, all in one place!",
+      "description": "PrepLoom is a one-stop platform for students to learn, revise, and prepare for interviews. It includes roadmaps, project ideas, resume tips, and more.",
       "price": 0.0,
       "instructor": "self",
       "isFeatured": true,
@@ -25,22 +25,10 @@
       "image": "/courses/preploom.png"
     },
     {
-      "id": 3,
-      "title": "RapidMERN",
-      "slug": "rapidmern",
-      "description": "RapidMERN is a command-line tool for generating a complete MERN stack boilerplate with Prisma and MySQL integration, enabling quick project setup for full-stack applications.",
-      "price": 0.0,
-      "instructor": "self",
-      "isFeatured": true,
-      "github": "https://github.com/nandu-99/rapidmern",
-      "livelink": "https://npmjs.com/package/rapidmern",
-      "image": "/courses/rapidmern.jpeg"
-    },
-    {
-      "id": 4,
+      "id": 5,
       "title": "Student Management System",
       "slug": "student management system",
-      "description": "A comprehensive Student Management System for efficiently managing student records, attendance, grades, academic progress, and communication, with an intuitive admin dashboard for streamlined oversight and reporting.",
+      "description": "A system designed to manage student details, attendance, marks, and academic progress. It also provides an easy-to-use admin dashboard for reports and daily operations.",
       "price": 99.99,
       "instructor": "self",
       "isFeatured": true,
@@ -49,10 +37,10 @@
       "image": "/courses/sms.jpeg"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "JEE College Predictor",
       "slug": "jee college predictor",
-      "description": "JEE College Predictor: Python and React.js powered tool for personalized college recommendations based on web-scraped data. Over 10,000 users benefit from its intuitive interface and seamless features.",
+      "description": "A tool that helps JEE students find suitable colleges based on their rank and preferences. It uses real data and gives quick, personalized results.",
       "price": 99.99,
       "instructor": "self",
       "isFeatured": true,
@@ -61,10 +49,10 @@
       "image": "/courses/collegepredictor.jpeg"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "TRIP PLANNER",
       "slug": "Ai trip planner",
-      "description": "Embark on an AI-powered journey with our trip planner, seamlessly blending technology and travel expertise. Personalize your itinerary, discover hidden gems, and unlock unforgettable experiences with every click.",
+      "description": "An AI-powered trip planner that helps you create travel plans, discover places, and organize your journey in a simple and fun way.",
       "price": 109.99,
       "instructor": "my self",
       "isFeatured": false,
@@ -73,22 +61,36 @@
       "image": "/courses/trip.jpeg"
     },
     {
-      "id": 7,
-      "title": "DINE RESTAURANT WEBSITE",
-      "slug": "dine restaurant website",
-      "description": "Indulge your senses with our Dine Restaurant website, where exquisite tastes meet elegant design. Discover culinary delights, reserve your table, and experience a feast for both palate and eyes.",
-      "price": 99.99,
+      "id": 2,
+      "title": "Serenity Springs",
+      "slug": "serenity-springs",
+      "description": "A wellness platform where users can book therapy sessions. Admins and therapists get tools to handle schedules, users, and sessions smoothly.",
+      "price": 0.0,
       "instructor": "self",
       "isFeatured": true,
-      "github": "https://github.com/nandu-99/Dine-Restaurant-Website",
-      "livelink": "https://nandu-99.github.io/Dine-Restaurant-Website/",
-      "image": "/courses/restaurant.jpeg"
+      "github": "",
+      "livelink": "https://serenity-springs-site.vercel.app/",
+      "image": "/courses/serenity.png"
     },
     {
-      "id": 8,
+      "id": 4,
+      "title": "RapidMERN",
+      "slug": "rapidmern",
+      "description": "RapidMERN is a CLI tool that helps developers quickly set up a full MERN stack project with Prisma and MySQL, saving time and effort during initial project setup.",
+      "price": 0.0,
+      "instructor": "self",
+      "isFeatured": true,
+      "github": "https://github.com/nandu-99/rapidmern",
+      "livelink": "https://npmjs.com/package/rapidmern",
+      "image": "/courses/rapidmern.jpeg"
+    },
+    
+    
+    {
+      "id": 9,
       "title": "LODGING LAND",
       "slug": "lodging land",
-      "description": "Discover your perfect getaway with LodgingLand, your ultimate lodging companion. Effortlessly explore a curated selection of accommodations tailored to your preferences.Book your next stay with confidence",
+      "description": "A platform to browse stays easily. Users can explore different lodging options based on their needs and preferences.",
       "price": 109.99,
       "instructor": "my self",
       "isFeatured": false,
@@ -97,10 +99,23 @@
       "image": "/courses/lodgingland.jpg"
     },
     {
-      "id": 9,
+      "id": 8,
+      "title": "DINE RESTAURANT WEBSITE",
+      "slug": "dine restaurant website",
+      "description": "A simple frontend landing page design for a restaurant. It focuses only on layout, visuals, and UI",
+      "price": 99.99,
+      "instructor": "self",
+      "isFeatured": true,
+      "github": "https://github.com/nandu-99/Dine-Restaurant-Website",
+      "livelink": "https://nandu-99.github.io/Dine-Restaurant-Website/",
+      "image": "/courses/restaurant.jpeg"
+    },
+    
+    {
+      "id": 10,
       "title": "OrganizePro",
       "slug": "A todo list app made with react",
-      "description": "Elevate your productivity with OrganizePro, a React-powered to-do list app designed to streamline your tasks. Stay organized, prioritize efficiently, and conquer your day with ease.",
+      "description": "A simple and clean to-do app built with React that helps you plan tasks, stay organized, and be more productive.",
       "price": 129.99,
       "instructor": "Self",
       "github": "https://github.com/nandu-99/React-Todolist-App",
@@ -109,10 +124,10 @@
       "image": "/courses/organize.jpeg"
     },
     {
-      "id": 10,
+      "id": 11,
       "title": "REACT QUIZ APP",
       "slug": "simple quiz app",
-      "description": "Engage with React like never before in this quiz app exclusively dedicated to React-related questions. Test your knowledge, deepen your understanding, and level up your React skills with every answer.",
+      "description": "A fun quiz app focused on React questions. It helps users test their knowledge and learn React concepts.",
       "price": 119.99,
       "instructor": "Soumitra mishra",
       "github": "https://github.com/nandu-99/React-QuizApp",
@@ -120,12 +135,11 @@
       "isFeatured": true,
       "image": "/courses/reactquiz.jpeg"
     },
-
     {
-      "id": 11,
+      "id": 12,
       "title": "2048-Game",
       "slug": "A simple 2048 Game",
-      "description": "Experience the addictive puzzle challenge of 2048 with this browser-based game crafted using HTML, CSS, and JavaScript. Merge tiles strategically to reach the elusive 2048 tile!",
+      "description": "A browser-based 2048 game where players combine tiles to reach the final goal. Simple, fun, and addictive.",
       "price": 139.99,
       "instructor": "Self",
       "github": "https://github.com/nandu-99/2048-Game",
@@ -134,10 +148,10 @@
       "image": "/courses/2048.png"
     },
     {
-      "id": 12,
+      "id": 13,
       "title": "TIC-TAC-TOE-GAME",
       "slug": "A simple tic tac toe game interface",
-      "description": "Enjoy the timeless game of Tic-Tac-Toe brought to life using HTML, CSS, and JavaScript. Play against friends or family in this simple yet engaging web-based rendition.",
+      "description": "A classic Tic-Tac-Toe game built for the web. Play with friends and enjoy a simple, clean interface.",
       "price": 149.99,
       "instructor": "Self",
       "github": "https://github.com/nandu-99/Tic-Tac-Toe",
@@ -146,10 +160,10 @@
       "image": "/courses/tictactoe.jpeg"
     },
     {
-      "id": 13,
+      "id": 14,
       "title": "NST-WEBSITE-CLONE",
       "slug": "NST website clone",
-      "description": "Experience the nostalgia of the past with our NST website clone. Relive the classic design and functionality of the original site, revamped for modern browsing while preserving its timeless charm.",
+      "description": "A clone of the NST website that recreates its layout and design while keeping the original feel intact.",
       "price": 149.99,
       "instructor": "Self",
       "github": "https://github.com/nandu-99/NST-website-clone",
@@ -158,10 +172,10 @@
       "image": "/courses/nst.jpeg"
     },
     {
-      "id": 14,
+      "id": 15,
       "title": "MEMORY-GAME",
       "slug": "a simple memory game",
-      "description": "Challenge your memory and have fun with our Memory Game. Match pairs of cards to sharpen your recall skills and enjoy hours of entertainment with this classic and addictive game.",
+      "description": "A card-matching game that tests your memory and focus. Simple to play and fun for all ages.",
       "price": 149.99,
       "instructor": "Self",
       "github": "https://github.com/nandu-99/Memory-Game-1",
@@ -170,10 +184,10 @@
       "image": "/courses/memorygame.jpeg"
     },
     {
-      "id": 15,
+      "id": 16,
       "title": "IMAGE-GALLERY",
       "slug": "image gallery with lightbox",
-      "description": "Discover stunning images with our Image Gallery and Lightbox feature. Dive into captivating visuals and easily navigate through pictures for a seamless viewing experience",
+      "description": "An image gallery with a lightbox feature that lets users view photos in a smooth and interactive way.",
       "price": 149.99,
       "instructor": "Self",
       "github": "https://github.com/nandu-99/Image-Gallery-with-lightbox",
@@ -182,10 +196,10 @@
       "image": "/courses/imagegallery.jpeg"
     },
     {
-      "id": 16,
+      "id": 17,
       "title": "CampusLink",
       "slug": "Connect juniors with seniors",
-      "description": "CampusLink: Bridging juniors and seniors, our hackathon-winning project fosters connection within campuses. Empower juniors to seek guidance, mentorship, and valuable insights from seasoned seniors.",
+      "description": "A platform that connects juniors with seniors for guidance, mentorship, and campus-related support.",
       "price": 149.99,
       "instructor": "Self",
       "github": "https://github.com/nandu-99/CampusLink",
@@ -194,10 +208,10 @@
       "image": "/courses/campuslink.jpeg"
     },
     {
-      "id": 17,
+      "id": 18,
       "title": "JeeBuddy",
       "slug": "JeeBuddy: chatbot",
-      "description": "Introducing JeeBuddy: Your chatbot companion for JEE aspirants, our Google Cloud hackathon project. Get instant support, guidance, and valuable resources tailored to your JEE preparation journey.",
+      "description": "A chatbot made for JEE aspirants that provides instant help, guidance, and useful study resources.",
       "price": 149.99,
       "instructor": "Self",
       "github": "https://github.com/nandu-99/Cloud_Hackathon",
@@ -206,10 +220,10 @@
       "image": "/courses/jeebuddy.jpeg"
     },
     {
-      "id": 18,
+      "id": 19,
       "title": "LinkedIn-Clone",
       "slug": "Linkedin-clone",
-      "description": "Experience the essence of LinkedIn with our landing page clone. Seamlessly crafted to reflect LinkedIn's professional aesthetic, explore familiar features and begin your journey towards networking excellence.",
+      "description": "A landing page clone of LinkedIn that matches its look and feel for practice and learning purposes.",
       "price": 149.99,
       "instructor": "Self",
       "github": "https://github.com/nandu-99/linkedin-landing-page-clone",
