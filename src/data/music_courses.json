@@ -67,7 +67,7 @@
       "id": 5,
       "title": "Student Management System",
       "slug": "student management system",
-      "description": "A system designed to manage student details, attendance, marks, and academic progress. It also provides an easy-to-use admin dashboard for reports and daily operations.",
+      "description": "A system designed to manage student details, attendance, marks, and academic progress. It also provides an admin dashboard for reports and daily operations.",
       "price": 99.99,
       "instructor": "self",
       "isFeatured": true,
