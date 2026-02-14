@@ -3,56 +3,102 @@ import React from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const experiences = [
+  // {
+  //   date: "July 2025 - Present",
+  //   title: "Zuvees",
+  //   role: "Tech + Growth Marketing Intern",
+  //   location: "Remote",
+  //   icon: "https://media.licdn.com/dms/image/v2/D560BAQFbyIbRC3kiiw/company-logo_200_200/company-logo_200_200/0/1736242205255/zuvees_logo?e=2147483647&v=beta&t=tbJpcwIixQ2dH2LXnCIgRTnFRqCKV7Zq4_Ama6Ayeng",
+  //   description:
+  //     "A tech-first global e-commerce company backed by prominent VCs, with roots in India. We leverage technology to revolutionise online gifting, a massive global industry valued at over $500 billion.",
+  //   highlights: [
+  //     "✨ Current",
+  //   ],
+  //   features: [
+  //   ],
+  //   offerLetter:
+  //     "https://drive.google.com/file/d/1VyR-qdlR2IqpgJRsIOWotQogGuwfMmHd/view?usp=sharing",
+  //   experienceLetter:
+  //     "",
+  // },
+  // {
+  //   date: "Jan 2025 - June 2025 · 6mos",
+  //   title: "Zuvees",
+  //   role: "Software Development Engineer",
+  //   location: "Bangalore, Karnataka",
+  //   icon: "https://media.licdn.com/dms/image/v2/D560BAQFbyIbRC3kiiw/company-logo_200_200/company-logo_200_200/0/1736242205255/zuvees_logo?e=2147483647&v=beta&t=tbJpcwIixQ2dH2LXnCIgRTnFRqCKV7Zq4_Ama6Ayeng",
+  //   description:
+  //     "A tech-first global e-commerce company backed by prominent VCs, with roots in India. We leverage technology to revolutionise online gifting, a massive global industry valued at over $500 billion.",
+  //   highlights: [
+  //     "First tech team @Zuvees",
+  //     "Built 0-1 solutions",
+  //     "Received Pre-Placement Offer (PPO)",
+  //   ],
+  //   features: [
+  //     "Built and maintained Shopify theme-based storefronts and custom landing pages.",
+  //     "Built internal operations dashboard (ZIST) with role-based access control, multi-marketplace integration, and order & catalog management from scratch.",
+  //     "Implemented Google Tag Manager, custom Shopify pixels, and analytics (GA4, Ads) for tracking and marketing.",
+  //     "Designed normalized database schemas for roles, users, catalog and orders.",
+  //     "Integrated image upload via S3 and ZeptoMail email automation.",
+  //     "Improved website performance, responsiveness, and PWA compliance.",
+  //     "Collaborated cross-functionally during a business trip to Dubai to understand operations, cataloging, and warehouse workflows.",
+  //   ],
+  //   offerLetter:
+  //     "https://drive.google.com/file/d/1sJ1bV84eLV-96WWjDRkzOsECfh9uxlW-/view?usp=drive_link",
+  //   experienceLetter:
+  //     "https://drive.google.com/file/d/1Kd6VFO0YXTSSC_2v0tVsQc_4YDzPCqWU/view?usp=sharing",
+  // },
   {
-    date: "July 2025 - Present",
+    date: "July 2025 - Dec 2025 · 6 mos",
     title: "Zuvees",
-    role: "Tech + Growth Marketing Intern",
-    location: "Remote",
+    role: "Tech + Growth Developer",
+    location: "Bangalore, India",
     icon: "https://media.licdn.com/dms/image/v2/D560BAQFbyIbRC3kiiw/company-logo_200_200/company-logo_200_200/0/1736242205255/zuvees_logo?e=2147483647&v=beta&t=tbJpcwIixQ2dH2LXnCIgRTnFRqCKV7Zq4_Ama6Ayeng",
     description:
       "A tech-first global e-commerce company backed by prominent VCs, with roots in India. We leverage technology to revolutionise online gifting, a massive global industry valued at over $500 billion.",
     highlights: [
-      "✨ Current",
-      // "Optimized payment gateway integration",
+      "Reduced CAC by 40%",
+      "Boosted tracking accuracy to 90%"
     ],
     features: [
-      // "Developed a recommendation engine for personalized gifting.",
-      // "Integrated third-party payment APIs for seamless transactions.",
-      // "Enhanced SEO performance for product pages.",
+      "Optimized GTM, GA4, and Google Ads tracking across 15+ conversion and engagement events.",
+      "Implemented server-side tracking to improve attribution accuracy and data reliability.",
+      "Designed dynamic order forms to increase checkout completion rates.",
+      "Built automated email flows for retention, abandoned carts, and lifecycle marketing.",
+      "Improved campaign performance and customer acquisition efficiency using analytics insights.",
     ],
     offerLetter:
       "https://drive.google.com/file/d/1VyR-qdlR2IqpgJRsIOWotQogGuwfMmHd/view?usp=sharing",
-    experienceLetter:
-      "",
+    experienceLetter: "",
   },
   {
-    date: "Jan 2025 - June 2025 · 6mos",
+    date: "Jan 2025 - June 2025 · 6 mos",
     title: "Zuvees",
     role: "Software Development Engineer",
-    location: "Bangalore, Karnataka",
+    location: "Bangalore, India",
     icon: "https://media.licdn.com/dms/image/v2/D560BAQFbyIbRC3kiiw/company-logo_200_200/company-logo_200_200/0/1736242205255/zuvees_logo?e=2147483647&v=beta&t=tbJpcwIixQ2dH2LXnCIgRTnFRqCKV7Zq4_Ama6Ayeng",
     description:
-      "A tech-first global e-commerce company backed by prominent VCs, with roots in India. We leverage technology to revolutionise online gifting, a massive global industry valued at over $500 billion.",
+      "Core engineering team member building 0→1 systems, scalable storefronts, and internal operations tools for a high-growth e-commerce platform.",
     highlights: [
-      "First tech team @Zuvees",
-      "Built 0-1 solutions",
+      "First Tech Team Member",
+      "Built 0→1 Internal Systems",
       "Received Pre-Placement Offer (PPO)",
     ],
     features: [
-      "Built and maintained Shopify theme-based storefronts and custom landing pages.",
-      "Built internal operations dashboard (ZIST) with role-based access control, multi-marketplace integration, and order & catalog management from scratch.",
-      "Implemented Google Tag Manager, custom Shopify pixels, and analytics (GA4, Ads) for tracking and marketing.",
-      "Designed normalized database schemas for roles, users, catalog and orders.",
-      "Integrated image upload via S3 and ZeptoMail email automation.",
-      "Improved website performance, responsiveness, and PWA compliance.",
-      "Collaborated cross-functionally during a business trip to Dubai to understand operations, cataloging, and warehouse workflows.",
+      "Built customizable Shopify storefronts and landing pages, improving mobile performance from 40% to 85%.",
+      "Developed ZIST admin dashboard with role-based access control and multi-marketplace integration.",
+      "Reduced order tracking inefficiencies by 40% through centralized operations tooling.",
+      "Implemented React Checkout UI Extension for optimized checkout customization.",
+      "Designed normalized database schemas for catalog, roles, and order management.",
+      "Integrated S3-based image uploads and email automation systems.",
+      "Mentored interns on NPS module and delivery tracking app development.",
     ],
     offerLetter:
       "https://drive.google.com/file/d/1sJ1bV84eLV-96WWjDRkzOsECfh9uxlW-/view?usp=drive_link",
     experienceLetter:
       "https://drive.google.com/file/d/1Kd6VFO0YXTSSC_2v0tVsQc_4YDzPCqWU/view?usp=sharing",
   },
-  
+    
   {
     date: "June 2024 - August 2024 · 3mos",
     title: "MoveinSync",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { BackgroundBeams } from "../../components/ui/background-beams";
 import { ButtonX } from "../../components/ui/cvborder";
+import Image from "next/image";
 
 function page() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -17,10 +18,12 @@ function page() {
       </div>
       <div className="md:py-40 py-20 px-20 xl:p-40 w-screen bg-neutral-950 rounded-l-md flex items-center justify-center flex-col lg:flex-row md:items-center">
         {/* Your Photo */}
-        <img
+        <Image
           src="/courses/nandu.jpeg" // Replace with your photo URL
           alt="Your Photo"
           className="rounded-full w-[200px] h-[200px] md:w-[500px] md:h-[500px] mx-auto mb-4 z-10"
+          height={500}
+          width={500}
         />
         <div>
           <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
