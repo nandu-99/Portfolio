@@ -79,7 +79,7 @@ export function LampDemo() {
             </Button>
           </Link>
           <Link
-            href="https://drive.google.com/file/d/17n7mHYLTME_su0Q7puBARkuVlHuBs38S/view?usp=sharing"
+            href="https://drive.google.com/file/d/1GYbKLUb4DU7VnBI9BWWEgdPnMye3r0zK/view?usp=sharing"
             target="_blank"
           >
             <Button
