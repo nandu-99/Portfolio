@@ -34,14 +34,14 @@ export const products = [
     thumbnail: "/courses/trip.jpeg",
   },
   {
-    title: "Dine Restaurant website",
-    link: "https://nandu-99.github.io/Dine-Restaurant-Website/",
-    thumbnail: "/courses/restaurant.jpeg",
+    title: "Jee College Predictor",
+    link: "https://my.newtonschool.co/jee-college-predictor-by-iit-roorkee-alumni-and-nst-students",
+    thumbnail: "/courses/collegepredictor.jpeg",
   },
   {
-    title: "OrganizePro",
-    link: "https://organizepro.netlify.app/",
-    thumbnail: "/courses/organize.jpeg",
+    title: "Telangana Champions League",
+    link: "https://www.tclt20.co.in/",
+    thumbnail: "/courses/tcl.png",
   },
   {
     title: "2048 Game",

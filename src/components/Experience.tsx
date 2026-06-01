@@ -3,6 +3,26 @@ import React from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const experiences = [
+  {
+    date: "April 2026 - May 2026 · 2 mos",
+    title: "Emergent",
+    role: "AI Agent Reliability Engineer",
+    location: "Bangalore, India",
+    icon: "https://images.contentstack.io/v3/assets/blt7151619cb9560896/blte8c6a91d404704fc/693813a87d6ae46ea65b8933/Emergent-Labs-logo.png",
+    description:
+      "Agentic AI platform that turns natural-language prompts into fully functional full-stack applications.",
+    highlights: [
+      "Improved agent reliability",
+      "Onboarded multiple companies",
+    ],
+    features: [
+      "Debugged user codebases across multiple stacks, fixing AI-agent-introduced bugs to restore functionality.",
+      "Resolved Emergent platform issues and contributed backend fixes, improving agent reliability and overall stability.",
+      "Vibe-coded full-stack apps and onboarded multiple companies by translating user problems into working solutions.",
+    ],
+    offerLetter: "",
+    experienceLetter: "",
+  },
   // {
   //   date: "July 2025 - Present",
   //   title: "Zuvees",
@@ -58,7 +78,7 @@ const experiences = [
       "A tech-first global e-commerce company backed by prominent VCs, with roots in India. We leverage technology to revolutionise online gifting, a massive global industry valued at over $500 billion.",
     highlights: [
       "Reduced CAC by 40%",
-      "Boosted tracking accuracy to 90%"
+      "Raised purchase accuracy 60% → 90%"
     ],
     features: [
       "Optimized GTM, GA4, and Google Ads tracking across 15+ conversion and engagement events.",
@@ -187,13 +207,15 @@ const InternshipExperienceCard = () => {
                   </div>
                 )}
                 <div className="mt-4 flex flex-col md:flex-row gap-4">
-                  <a
-                    href={exp.offerLetter}
-                    target="_blank"
-                    className="text-sm text-blue-500"
-                  >
-                    View Offer Letter
-                  </a>
+                  {exp.offerLetter && (
+                    <a
+                      href={exp.offerLetter}
+                      target="_blank"
+                      className="text-sm text-blue-500"
+                    >
+                      View Offer Letter
+                    </a>
+                  )}
                   {exp.experienceLetter && (
                     <a
                       href={exp.experienceLetter}

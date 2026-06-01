@@ -1,16 +1,28 @@
 {
   "courses": [
     {
-      "id": 1,
-      "title": "DriveMerge",
-      "slug": "drivemerge",
-      "description": "DriveMerge lets you connect multiple Google Drive accounts and use them like a single drive. It helps you manage files easily and overcome storage limits.",
+      "id": 21,
+      "title": "Telangana Champions League",
+      "slug": "telangana-champions-league",
+      "description": "A live cricket tournament platform powering the full T20 lifecycle on AWS, with Razorpay and Resend integration that collected Rs. 16L+ and scaled to 20K+ users.",
       "price": 0.0,
       "instructor": "self",
       "isFeatured": true,
-      "github": "https://github.com/nandu-99/DriveMerge",
-      "livelink": "https://drive-merge.vercel.app/",
-      "image": "/courses/drivemerge.jpeg"
+      "github": "",
+      "livelink": "https://www.tclt20.co.in/",
+      "image": "/courses/tcl.png"
+    },
+    {
+      "id": 6,
+      "title": "JEE College Predictor",
+      "slug": "jee college predictor",
+      "description": "A tool that helps JEE students find suitable colleges based on their rank and preferences. It uses real data and gives quick, personalized results.",
+      "price": 99.99,
+      "instructor": "self",
+      "isFeatured": true,
+      "github": "",
+      "livelink": "https://my.newtonschool.co/jee-college-predictor-by-iit-roorkee-alumni-and-nst-students",
+      "image": "/courses/collegepredictor.jpeg"
     },
     {
       "id": 3,
@@ -25,16 +37,16 @@
       "image": "/courses/preploom.png"
     },
     {
-      "id": 6,
-      "title": "JEE College Predictor",
-      "slug": "jee college predictor",
-      "description": "A tool that helps JEE students find suitable colleges based on their rank and preferences. It uses real data and gives quick, personalized results.",
-      "price": 99.99,
+      "id": 1,
+      "title": "DriveMerge",
+      "slug": "drivemerge",
+      "description": "DriveMerge lets you connect multiple Google Drive accounts and use them like a single drive. It helps you manage files easily and overcome storage limits.",
+      "price": 0.0,
       "instructor": "self",
       "isFeatured": true,
-      "github": "",
-      "livelink": "https://my.newtonschool.co/jee-college-predictor-by-iit-roorkee-alumni-and-nst-students",
-      "image": "/courses/collegepredictor.jpeg"
+      "github": "https://github.com/nandu-99/DriveMerge",
+      "livelink": "https://drive-merge.vercel.app/",
+      "image": "/courses/drivemerge.jpeg"
     },
     
     {
@@ -105,7 +117,7 @@
       "id": 9,
       "title": "LODGING LAND",
       "slug": "lodging land",
-      "description": "A platform to browse stays easily. Users can explore different lodging options based on their needs.",
+      "description": "A platform to browse and book stays with ease. Users can explore a range of lodging options, compare them by their needs, and find the right place to stay quickly.",
       "price": 109.99,
       "instructor": "my self",
       "isFeatured": false,
