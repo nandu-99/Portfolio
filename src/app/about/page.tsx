@@ -31,27 +31,35 @@ function page() {
           </h1>
           <br />
           <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-left relative z-10">
-            I'm Vivekananda from Hyderabad, currently a second-year BTech
-            student at Newton School of Technology.🎓 I have hands-on experience
-            with the MERN stack and love building projects from scratch.
+            I'm Vivekananda, a final-year B.Tech student at Newton School of
+            Technology, Rishihood University. Cricket has been a big part of my
+            life since 8th grade - I represented my school and clubs across India
+            and Sri Lanka, and it taught me the discipline I still carry today.
             <br />
             <br />
-            Before BTech, I was a cricket player🏏, representing my school in
-            tournaments across India and Sri Lanka, earning several trophies.🏆
-            However, I left cricket for personal reasons and shifted my focus
-            entirely to development. Over time, I developed a strong interest in
-            coding💻 and started working on various projects.
+            After my first year, I dove into software development through
+            internships - frontend at MoveInSync, then as an early SDE at Zuvees
+            (a flower-gifting startup) building systems from scratch, where I
+            later moved into a Tech + Growth role focused on analytics and
+            server-side GTM. Most recently, I worked as an AI Agent Reliability
+            Engineer Intern at Emergent, debugging AI-generated codebases across
+            stacks and contributing backend improvements.
             <br />
             <br />
-            I previously worked as a Frontend Developer Intern at MoveInSync and
-            am currently interning as an SDE at Zuvees. I enjoy working in
-            startups over big companies because I love exploring new things and
-            taking on bigger challenges. I want to work in a space where my
-            efforts make a real impact.
+            One of my recent projects is the Telangana Champions League platform,
+            which handles a tournament's full lifecycle - registrations, player
+            selection, auctions, matches, and prizes. Overall, I love building
+            products from scratch and work hands-on with the MERN stack and
+            backend development.
+            <br />
+            <br />
+            I enjoy working in startups over big companies because I love
+            exploring new things and taking on bigger challenges. I want to work
+            in a space where my efforts make a real impact.
             <br />
             <br />
             In the future, I aspire to start my own startup and build something
-            meaningful.🚀
+            meaningful.
           </p>
 
           <br />

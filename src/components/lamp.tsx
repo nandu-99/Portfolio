@@ -28,8 +28,8 @@ export function LampDemo() {
       >
         Pottabathini Vivekananda
         <p className="mt-4 font-normal tracking-tight text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Student at NST | Intern @Zuvees | Ex-Intern @Moveinsync | Web
-          Developer | Cricketer | PhotoGrapher
+          Student at NST | Ex-Intern @Emergent, @Zuvees & @MoveInSync | Web
+          Developer | Cricketer | Photographer
         </p>
         <div
           className="mt-4"
