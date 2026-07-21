@@ -65,12 +65,14 @@ export const MultiStepLoader = ({
   duration = 400,
   loop = false,
   onComplete,
+  onSkip,
 }: {
   loadingStates: LoadingState[];
   loading?: boolean;
   duration?: number;
   loop?: boolean;
   onComplete?: () => void;
+  onSkip?: () => void;
 }) => {
   const [currentState, setCurrentState] = useState(0);
 
@@ -104,6 +106,15 @@ export const MultiStepLoader = ({
           transition={{ duration: 0.75, ease: [0.76, 0, 0.24, 1] }}
           className="fixed inset-0 z-100 flex items-center justify-center backdrop-blur-2xl bg-black/50"
         >
+          {onSkip && (
+            <button
+              type="button"
+              onClick={onSkip}
+              className="absolute top-6 right-6 font-mono text-sm tracking-wide text-neutral-400 hover:text-white transition-colors border border-neutral-700 hover:border-neutral-400 rounded-md px-3 py-1.5 cursor-pointer"
+            >
+              Skip →
+            </button>
+          )}
           <div className="w-full max-w-xl px-10 md:px-16">
             <LoaderCore value={currentState} loadingStates={loadingStates} />
           </div>

@@ -30,6 +30,11 @@ export default function PreloaderWrapper({ children }: { children: React.ReactNo
     }, 800);
   };
 
+  const handleSkip = () => {
+    sessionStorage.setItem("preloader_seen", "1");
+    setLoading(false);
+  };
+
   return (
     <>
       {maskVisible && (
@@ -41,6 +46,7 @@ export default function PreloaderWrapper({ children }: { children: React.ReactNo
         duration={900}
         loop={false}
         onComplete={handleComplete}
+        onSkip={handleSkip}
       />
       {children}
     </>
