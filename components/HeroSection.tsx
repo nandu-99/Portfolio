@@ -63,7 +63,7 @@ export default function HeroSection() {
             View Projects <IconArrowRight className="h-4 w-4" />
           </a>
           <a
-            href="https://drive.google.com/file/d/1KiaEseHXEmmvOfdXQAF9vO45BuOvs6cF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1kgM60vdMixCHL1eMVNJirVZrGZQq6t_e/view?usp=sharing"
             target="_blank"
             className="inline-flex items-center gap-2 rounded-full border border-white/10 px-6 py-2.5 text-base font-medium text-neutral-400 hover:border-white/20 hover:text-neutral-200 transition"
           >
